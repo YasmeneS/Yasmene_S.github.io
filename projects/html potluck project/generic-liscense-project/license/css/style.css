@@ -11,7 +11,7 @@
     padding: 10px;
     display: inline-block;
     width:450px;
-    height:300px
+    height:300px;
 }
 
 .liscense div {
@@ -19,10 +19,11 @@
 }
 
 img {
-    box-align: right;
+    content: right;
 }
 
 h4 {
     color: white;
-    background-color: blue
+    background-color: blue;
+    text-align: center;
 }
