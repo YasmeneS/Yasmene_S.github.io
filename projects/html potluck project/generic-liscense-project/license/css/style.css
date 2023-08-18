@@ -9,9 +9,10 @@
 #license {
     border: 2px solid black;
     padding: 10px;
-    display: inline-block;
     width:450px;
     height:300px;
+    border-radius:5%;
+    align-items: center 
 }
 
 .liscense div {
@@ -19,11 +20,20 @@
 }
 
 img {
-    content: right;
+    text-align: right;
+    display: inline-block;
+    max-width: 100px;
+    align-items: right;
 }
 
 h4 {
     color: white;
-    background-color: blue;
     text-align: center;
+    display: inline-block;
+}
+
+h4{
+    background-color: blue;
+    max-width: 100px;
+    display: inline-block;
 }
