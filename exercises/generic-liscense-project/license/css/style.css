@@ -1,0 +1,39 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    border: 2px solid black;
+    padding: 10px;
+    width:450px;
+    height:300px;
+    border-radius:5%;
+    align-items: center 
+}
+
+.liscense div {
+    text-align: left;
+}
+
+img {
+    text-align: right;
+    display: inline-block;
+    max-width: 100px;
+    align-items: right;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+h4{
+    background-color: blue;
+    max-width: 100px;
+    display: inline-block;
+}
