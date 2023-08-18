@@ -22,7 +22,8 @@ h2 {
     background-color: whitesmoke;
     text-align: center;
     border-radius:20px;
-    color: red
+    color: red;
+    max-width: 70%
 }
 
 p {
@@ -30,9 +31,10 @@ p {
 }
 
 a {
-    color: whitesmoke
+    color: whitesmoke;
 }
 
 img {
-   padding: 20px solid black
+   padding: 20px solid black;
+   max-width:70%;
 }
