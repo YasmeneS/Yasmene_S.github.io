@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background:red;
+}
+
+.contain {
+    width: 75%;
+    margin: 0 auto;
+    padding: 25px 0;
+    font-family:sans-serif
+}
+
+.contain img {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 20px
+}
+
+h2 {
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius:20px;
+    color: red;
+    max-width: 70%
+}
+
+p {
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+}
+
+img {
+   padding: 20px solid black;
+   max-width:70%;
+}
