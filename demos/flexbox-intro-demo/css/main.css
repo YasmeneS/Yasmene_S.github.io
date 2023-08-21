@@ -1,0 +1,30 @@
+img, p {
+    max-width: 200px;
+    border: 2px solid black;
+}
+
+.section1 {
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 80;
+    margin: 0 auto;
+}
+
+.section1 img {
+    flex: 2;
+    width: 100%;
+}
+.section .img-contain{
+    flex: 1;
+    order: 2;
+}
+
+.section1 p {
+    flex: 3;
+    order: 1;
+}

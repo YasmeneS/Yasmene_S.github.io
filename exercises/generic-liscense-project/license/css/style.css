@@ -15,15 +15,15 @@
     align-items: center 
 }
 
-.liscense div {
-    text-align: left;
+ #personal-info {
+    text-align: center;
+
 }
 
-img {
-    text-align: right;
-    display: inline-block;
-    max-width: 100px;
-    align-items: right;
+#donor-and-real-id {
+    max-width: 200px;
+    height: 30px;
+    text-align: center;
 }
 
 h4 {
@@ -32,8 +32,15 @@ h4 {
     display: inline-block;
 }
 
-h4{
+h4 {
     background-color: blue;
     max-width: 100px;
     display: inline-block;
+    text-align: center;
+}
+
+#img {
+    box-sizing: border-box;
+    display: inline-block;
+    flex-direction: row-reverse;
 }
