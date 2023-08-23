@@ -34,9 +34,9 @@ body {
     text-decoration: none;
 }
 #sidebar-1 {
-    margin-left: 24px;
+    margin-left: 900px;
     grid-area: left-sidebar;
-    background-color:#0064D3;
+    max-width: 30px;
 }
 #sidebar-2 {
     margin-right: 24px;
@@ -68,19 +68,24 @@ body {
 
 h1 {
     text-align: center;
-    color: #F5AF02;
+    color: #0064D3;
 }
 
 h3 {
-    color: black
+    color: #F5AF02
 }
 
 h2 {
-    color: black
+    color: red
 }
 
 li a{
     color: #0064D3
+}
+
+#sidebar-1 .inner-content {
+    margin: 24px;
+    font-size: 20px;
 }
 
     
