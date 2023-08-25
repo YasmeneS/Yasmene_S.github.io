@@ -1,0 +1,51 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+#section-3 .card-style-2 {
+    max-width: 358px;
+    margin: 16px;
+}
+
+.card-style-2 .animagram-header .logo {
+    font-size: 36px;
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 66px;
+    text-align: center;
+}
+
+.card-style-2 .animagram-header .brand-name {
+    font-family: 'Acme';
+    font-weight: bold;
+    text-align: center
+}
+
+img {
+    max-width: 400px;
+    min-height: 100vh;
+    padding: 24px;
+    margin: auto;
+    border-radius: 15%
+}
+
+.card-container {
+    text-align: center;
+    margin: 30px;
+}
+
+.card-style-2 {
+    background-color: white;
+}
+
+
+
