@@ -8,9 +8,11 @@
     of the setup.css styling if you do so.
 */
 
-#section-3 .card-style-2 {
+.card-style-2 {
     max-width: 358px;
     margin: 16px;
+    border: 10px white;
+    padding: 15px;
 }
 
 .card-style-2 .animagram-header .logo {
@@ -28,14 +30,13 @@
     font-family: 'Acme';
     font-weight: bold;
     text-align: center
+
 }
 
-img {
-    max-width: 400px;
-    min-height: 100vh;
-    padding: 24px;
-    margin: auto;
-    border-radius: 15%
+.card-style-2 img {
+    width: 300px;
+    border: 5px white;
+    border-radius: 60%;
 }
 
 .card-container {
@@ -45,6 +46,10 @@ img {
 
 .card-style-2 {
     background-color: white;
+}
+
+.card-style-2 .animagram-header {
+    text-align: left;
 }
 
 
