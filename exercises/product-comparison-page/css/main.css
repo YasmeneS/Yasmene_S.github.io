@@ -53,8 +53,8 @@ h3 {
 }
 
 h1 {
-    background-color: black;
-    color:black;
+    background-color: #E5B80B;
+    color:whitesmoke;
     text-align: center;
     font-size: 50px
 }
@@ -141,30 +141,4 @@ h1 {
 
 #single-column {
     display: flex ;
-}
-
-#sidebar {
-    background-color: #E5B80B;
-    width: 200px;
-    padding: 28px;
-    border-right: 3px solid whitesmoke;
-    position: sticky;
-    top: 25px;
-    height: 300px;
-    text-align: center;
-}
-#sidebar h2 {
-    color: whitesmoke;
-}
-#sidebar ul {
-    list-style-type: none;
-    padding: 8;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-#sidebar ul li a {
-    color:whitesmoke;
-    text-decoration: none;
-    font-size: 20px;
 }
