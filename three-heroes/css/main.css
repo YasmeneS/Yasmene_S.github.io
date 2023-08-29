@@ -102,5 +102,197 @@ body {
     border-radius: 70%;
 }
 
+#hero-4 {
+    background-image: url(../images/strawberry.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-4 h1 {
+    font-size: 8vw;
+    padding-left: 13vw;
+    color: purple;
+    margin-bottom: 3vh
+}
+
+#hero-4 .hero-content {
+    text-align: right;
+    color: rgb(2, 2, 2);
+    padding: 5vh 8vw;
+}
+
+#hero-5 {
+    background-image: url("../images/chocolate.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero-5 .hero-content {
+    text-align: right;
+    color: rgb(2, 2, 2);
+    padding: 5vh 8vw;
+}
+
+#hero-5 h2 {
+    font-size: 6vw;
+    margin-bottom: 3vh;
+    color: white;
+}
+
+#hero-5 h4 {
+    font-size: 3vw;
+    color: white;
+}
+
+#hero-6 {
+    background-image: url("../images/food.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero-6 .hero-content {
+    text-align: right;
+    color: rgb(2, 2, 2);
+    padding: 5vh 8vw;
+}
+
+#hero-6 h2 {
+    font-size: 6vw;
+    margin-bottom: 3vh;
+    color: whitesmoke;
+}
+
+#hero-6 h4  {
+    font-size: 3vw;
+    color: rgb(85, 70, 70);
+}
+
+#hero-6 a {
+    font-size: 4vw;
+    display: inline-block;
+    background-color: palevioletred;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    
+}
+
+
+#hero-7 {
+    background-image: url("../images/headphones.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-7 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-7 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-7 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-7 a {
+    font-size: 7vw;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-8 {
+    background-image: url("../images/earbuds.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-8 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-8 h2 {
+    font-size: 5vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: white;
+}
+
+
+#hero-8 a {
+    font-size: 6vw;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-9 {
+    background-image: url("../images/listen.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-9 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-9 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: white;
+}
+
+#hero-9 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: white;
+}
+
+#hero-9 a {
+    font-size: 4vw;
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
 
 

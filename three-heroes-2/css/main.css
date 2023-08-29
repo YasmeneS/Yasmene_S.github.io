@@ -8,12 +8,12 @@ body {
 
 .spacer {
     height: 50vh;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images);
     background-size: cover;
     background-attachment: fixed;
 }
 
-#hero-1 {
+#hero-4 {
     background-image: url(../images/strawberry.jpg);
     height: 100vh;
     background-size: cover;
@@ -23,20 +23,20 @@ body {
     align-items: center;
 }
 
-#hero-1 h1 {
+#hero-4 h1 {
     font-size: 8vw;
     padding-left: 13vw;
     color: purple;
     margin-bottom: 3vh
 }
 
-#hero-1 .hero-content {
+#hero-4 .hero-content {
     text-align: right;
     color: rgb(2, 2, 2);
     padding: 5vh 8vw;
 }
 
-#hero-2 {
+#hero-5 {
     background-image: url("../images/chocolate.jpg");
     height: 100vh;
     background-size: cover;
@@ -46,19 +46,19 @@ body {
     justify-content: flex-end;
 }
 
-#hero-2 .hero-content {
+#hero-5 .hero-content {
     text-align: right;
     color: rgb(2, 2, 2);
     padding: 5vh 8vw;
 }
 
-#hero-2 h2 {
+#hero-5 h2 {
     font-size: 6vw;
     margin-bottom: 3vh;
     color: white;
 }
 
-#hero-2 h4 {
+#hero-5 h4 {
     font-size: 3vw;
     color: white;
 }
@@ -67,7 +67,7 @@ body {
     height: 100vh;
 }
 
-#hero-3 {
+#hero-6 {
     background-image: url("../images/food.jpg");
     height: 100vh;
     background-size: cover;
@@ -77,24 +77,24 @@ body {
     justify-content: flex-end;
 }
 
-#hero-3 .hero-content {
+#hero-6 .hero-content {
     text-align: right;
     color: rgb(2, 2, 2);
     padding: 5vh 8vw;
 }
 
-#hero-3 h2 {
+#hero-6 h2 {
     font-size: 6vw;
     margin-bottom: 3vh;
     color: whitesmoke;
 }
 
-#hero-3 h4 {
+#hero-6 h4 {
     font-size: 3vw;
     color: white
 }
 
-#hero-3 a {
+#hero-6 a {
     font-size: 3vw;
     display: inline-block;
     background-color: palevioletred;
