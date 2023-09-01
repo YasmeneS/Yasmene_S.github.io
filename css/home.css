@@ -21,6 +21,8 @@ body {
     padding-left: 13vw;
     color: whitesmoke;
     margin-bottom: 3vh;
+    font-family: 'Bricolage Grotesque', sans-serif;
+   font-family: 'Indie Flower', cursive;
 }
 
 #hero-1 .hero-content {
@@ -49,11 +51,15 @@ body {
     font-size: 6vw;
     margin-bottom: 3vh;
     color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 
 #hero-2 h4 {
     font-size: 3vw;
     color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+   font-family: 'Indie Flower', cursive;
 }
 
 #hero-3 {
@@ -76,11 +82,12 @@ body {
     font-size: 6vw;
     margin-bottom: 3vh;
     color: whitesmoke;
+    font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Indie Flower', cursive;  
 }
 
 #hero-3 h4  {
     font-size: 3vw;
-    color: rgb(85, 70, 70);
 }
 
 #hero-3 a {
