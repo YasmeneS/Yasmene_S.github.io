@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.spacer {
+    height: 100vh;
+    
+}
+
+#hero-1 {
+    background-image: url(../images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-1 h1 {
+    font-size: 8vw;
+    padding-left: 13vw;
+    color: purple;
+    margin-bottom: 3vh
+}
+
+#hero-1 .hero-content {
+    text-align: right;
+    color: rgb(2, 2, 2);
+    padding: 5vh 8vw;
+}
+
+#hero-2 {
+    background-image: url("../images");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero-2 .hero-content {
+    text-align: right;
+    color: rgb(2, 2, 2);
+    padding: 5vh 8vw;
+}
+
+#hero-2 h2 {
+    font-size: 6vw;
+    margin-bottom: 3vh;
+    color: white;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    color: white;
+}
+
+#hero-3 {
+    background-image: url("../images");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero-3 .hero-content {
+    text-align: right;
+    color: rgb(2, 2, 2);
+    padding: 5vh 8vw;
+}
+
+#hero-3 h2 {
+    font-size: 6vw;
+    margin-bottom: 3vh;
+    color: whitesmoke;
+}
+
+#hero-3 h4  {
+    font-size: 3vw;
+    color: rgb(85, 70, 70);
+}
+
+#hero-3 a {
+    font-size: 4vw;
+    display: inline-block;
+    background-color: palevioletred;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    
+}
