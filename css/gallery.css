@@ -4,7 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/swirl.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 50vh;
@@ -25,7 +25,7 @@ body {
 .vertical-masonry-gallery img {
     width: 100%;
     margin-bottom: 1rem;
-    border: 5px solid black;
+    border: 5px solid white;
     border-radius: 20%;
 }
 
@@ -33,6 +33,16 @@ h3 {
     text-align: center;
     color: #55AAFF;
     background-color: white;
-    font-size: 25px;
+    font-size: 45px;
     text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+    
 }
