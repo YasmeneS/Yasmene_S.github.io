@@ -31,7 +31,7 @@ h2 {
     Navbar header with CTA
 */
 #navbar2 {
-    background: linear-gradient(to bottom, white,#F4845F);
+    background: linear-gradient(to bottom, white, lightcyan);
     background-color: #A9D4D9;
     display: flex;
     justify-content: space-between;
@@ -58,7 +58,7 @@ h2 {
 
 h1 {
     margin-top: auto;
-    color: white;
+    color: #F4845F;
 }
 
 /*
