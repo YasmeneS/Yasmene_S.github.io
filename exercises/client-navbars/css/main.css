@@ -1,0 +1,144 @@
+/*
+   Navbar Header Right
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: #ABA676;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #FFFEE9;
+    padding: 24px;
+}
+
+h2 {
+    margin-right: auto;
+    color: #283618;
+}
+
+/*
+    Navbar header with CTA
+*/
+#navbar2 {
+    background: linear-gradient(to bottom, white,#F4845F);
+    background-color: #A9D4D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar2 a {
+    text-decoration: none;
+    color: #083d77;
+    padding: 24px;
+}
+
+#navbar2 .cta-button {
+    background-color: white;
+    color: #F4845F;
+    border-radius: 30px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+h1 {
+    margin-top: auto;
+    color: white;
+}
+
+/*
+    Navbar header center multi-level
+*/
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top {
+    background-color: black;
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column div a {
+    padding: 24px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, #562c74, black);
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+#navbar-second {
+    background: linear-gradient(to bottom, black, #562c74);
+}
+
+#navbar-second .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-second a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+#navbar-second .cta-button {
+    background-color: black;
+    color: orange;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+h3 {
+    color:orange;
+}
+
+.navbar-second .h1 {
+   color:aliceblue;
+}
+
+
+
+
+
