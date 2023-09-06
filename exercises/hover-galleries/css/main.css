@@ -4,7 +4,7 @@
 body {
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: aquamarine;
+    background-color: #FA947C;
 }
 
 #cards-container {
@@ -24,46 +24,58 @@ body {
 
 #card1 {
     transition: background-color 0.5s,box-shadow 0.5s,transform 0.5s;
-    border: 3px solid yellow;
+    border: 3px solid white;
+    color:antiquewhite
 }
 
 #card1:hover {
-    background-color: greenyellow;
-    box-shadow: 4px 4px 4px #00000033;
+    background: url(../images/rose.jpg);
+    box-shadow: 4px 4px 4px red;
     transform: translateY(-4px);
+    background-size: cover;
+    background-position: center;
 }
 
 #card2 {
     transition: background-color 0.5s,box-shadow 0.5s,transform 0.5s;
-    border: 3px solid black;
+    border: 3px solid white;
+    color: orangered;
 }
 
 #card2:hover {
-    background-color: red;
-    box-shadow: 4px 4px 4px grey;
+    background: url(../images/whiteflower.jpg);
+    box-shadow: 4px 4px 4px yellow;
     transform: translateY(-4px);
+    background-size: cover;
+    background-position: center;
 }
 
 #card3 {
     transition: background-color 0.5s,box-shadow 0.5s,transform 0.5s;
     border: 3px solid white;
+    color: white;
 }
 
 #card3:hover {
-    background-color: lightskyblue;
-    box-shadow: 4px 4px 4px #00000033;
+    background: url(../images/hibiscus.jpg);
+    box-shadow: 4px 4px 4px pink;
     transform: translateY(-4px);
+    background-size: cover;
+    background-position: center;
 }
 
 #card4 {
     transition: background-color 0.5s,box-shadow 0.5s,transform 0.5s;
     border: 3px solid white;
+    color: white;
 }
 
 #card4:hover {
-    background-color: pink;
+    background: url(../images/sunflower.jpg);
     box-shadow: 4px 4px 4px blue;
     transform: translateY(-4px);
+    background-size: cover;
+    background-position: center;
 }
 
 /*disappear*/
