@@ -69,13 +69,8 @@ body {
 .center-column {
     width: 50%;
     min-width: 500px;
-    margin: center;
+    margin: 0px auto;
 }
-
-.light-container {
-    background-color: lavender;
-    padding: 40px 0px;
-} 
 
 img {
     border: 6px solid white;
@@ -83,7 +78,8 @@ img {
 }
 
 h1 {
-    color: white;
+    color: coral;
+    background-color: white;
 }
 
 p {
