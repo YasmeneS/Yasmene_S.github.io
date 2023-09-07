@@ -73,17 +73,21 @@ body {
 }
 
 img {
-    border: 6px solid white;
+    border: 6px solid #45b6fe;
     border-radius: 20px;
 }
 
 h1 {
     color: coral;
     background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lily Script One', cursive;
 }
 
 p {
-    color: white;
+    color: #45b6fe;
     font-size: 25px;
-    background-color: coral;
 }
