@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/paw.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#navbar {
+    background: linear-gradient(to top, coral, coral);
+    display: flex;
+    align-items: center;
+    border: black;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background-color:#45b6fe;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.25s, visibility 0.25s;
+}
+
+.dropdown-container:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-container:last-child .dropdown {
+    right: 0px;
+}
+
+.dropdown a {
+    background-color: #45b6fe;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown a:hover {
+    background: coral;
+}
+
+.center-column {
+    width: 50%;
+    min-width: 500px;
+    margin: center;
+}
+
+.light-container {
+    background-color: lavender;
+    padding: 40px 0px;
+} 
+
+img {
+    border: 6px solid white;
+    border-radius: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    background-color: coral;
+}
