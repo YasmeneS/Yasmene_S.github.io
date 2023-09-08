@@ -62,6 +62,7 @@ a {
     display: flex;
     margin: 0 24px;
     min-height: 50px;
+    flex-direction: column;
 }
 
 #footer {
@@ -172,6 +173,7 @@ a {
 .three-cards,
 .two-cards {
     display: flex;
+    flex-direction: column;
 }
 
 .card {
@@ -213,12 +215,13 @@ a {
 /* TODO: Add your media query code here */
 @media screen and (max-width: 768px) {
     #hero h1 {
-        font-size: 2.60rem;
+        font-size: 2.75rem;
     }
     h2 {
-        font-size: 1.75rem;
+        font-size: 1.25rem;
         margin-top: 3px auto;
         display: inline-block;
+        display: flex;
         flex-direction: column;
     }
     #content-container .card {
@@ -233,6 +236,5 @@ a {
 
     img {
         margin: 0 auto;
-        position: absolute;
     }
 }
