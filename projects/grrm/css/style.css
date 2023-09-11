@@ -448,7 +448,10 @@ body {
             "bottom  bottom  bottom ";
     }
     #nav {
-        flex-wrap: 100px;
+        flex-wrap: 50px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
     }
     #header h1 {
         font-size: 50px;
@@ -480,6 +483,10 @@ body {
     }
 
     #nav {
-        flex-wrap: 600px;
+        flex-wrap: 50px;
+        flex-wrap: 50px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px
     }
 }
