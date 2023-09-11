@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.img {
+    margin: 25px auto;
+    max-width: 888px;
+}
+
+
+/*
+    Navbar 
+*/
+#navbar {
+    background: linear-gradient(to bottom, #55AAFF,#55AAFF);
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background-color:lightblue;
+}
+
+h1 {
+    margin-right: auto;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
