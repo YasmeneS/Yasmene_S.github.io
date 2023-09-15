@@ -68,13 +68,13 @@ h1 {
 }
 
 .dropdown-menu a {
-    background-color: #005F72;
+    background-color: #F7941D;
     width: 100%;
     min-width: 150px;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: #F7941D;
+    background: #005F72;
 }
 
 /* Hero */
