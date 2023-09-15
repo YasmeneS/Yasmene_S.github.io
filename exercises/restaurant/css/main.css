@@ -18,6 +18,10 @@ h1 {
     width: 150px;
 }
 
+#navbar h1 {
+    margin-right: auto;
+} 
+
 #navbar {
     background: #005F72;
     display: flex;
@@ -245,8 +249,8 @@ a {
         font-size: 35px;
     }
 
-    h1 {
-       display: none;
+    #navbar h1 {
+        display: none;
     }
 
 }
@@ -254,6 +258,10 @@ a {
 @media screen and (max-width: 800px) {
     #navbar {
         flex-direction: column;
+    }
+
+    #navbar h1 {
+        display: none;
     }
 
     .dropdown-menu {
@@ -293,7 +301,4 @@ a {
         display: flex;
     }
 
-    h1 {
-        display: none;
-    }
 }
