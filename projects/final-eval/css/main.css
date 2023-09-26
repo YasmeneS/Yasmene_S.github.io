@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vph;
+}
+h3, h1, p, h2 {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: 'Martian Mono', monospace;
+}
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container {
+    padding: 40px 0px;
+} 
+
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    color:white;
+    padding: 48px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-image: url(../images/Dolphin.webp);
+    flex: 1;
+    background-size: cover;
+    background-position: center center;
+    border: 3px solid white;
+    padding: 39px;
+    padding-top: 140px;
+    padding-bottom: 200px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 30px;
+    margin: 24px 0px 0px;
+}
+
+.card2 {
+    background-image: url(../images/rams.jpeg);
+    flex: 1;
+    background-size: cover;
+    background-position: center center;
+    border: 3px solid white;
+    padding: 36px;
+    padding-top: 140px;
+    padding-bottom: 200px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card2 h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card2 p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+.anchor-button {
+    display: block;
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid darkblue;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+.anchor-button:hover {
+    background-color: transparent;
+    color: whitesmoke;
+    background-color: #00ffff;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .card-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 100px;
+    }
+    
+}
