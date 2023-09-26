@@ -1,8 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
 /*
     Navbar 
 */
 #navbar {
-    background: linear-gradient(to bottom, #55AAFF,#55AAFF);
+    background-image: url(../images/back3.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     border: 3px solid white;
@@ -15,7 +25,7 @@
 }
 
 #navbar a:hover {
-    background-color:lightblue;
+    background-color:#d3212c;
 }
 
 h1 {

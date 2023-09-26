@@ -4,7 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/swirl.jpg);
+    background-image: url(../images/back2.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 50vh;
@@ -18,20 +18,20 @@ body {
 
 .vertical-masonry-gallery {
     columns: 3 auto;
-    border: 10px solid #55AAFF;
+    border: 10px solid coral;
     padding: 20px;
 }
 
 .vertical-masonry-gallery img {
     width: 100%;
     margin-bottom: 1rem;
-    border: 5px solid white;
+    border: 5px solid #d3212c;
     border-radius: 20%;
 }
 
 h3 {
     text-align: center;
-    color: #55AAFF;
+    color: coral;
     background-color: white;
     font-size: 45px;
     text-decoration: none;
@@ -53,7 +53,8 @@ h5 {
     Navbar 
 */
 #navbar {
-    background: linear-gradient(to bottom, #55AAFF,#55AAFF);
+    background-image: url(../images/back3.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     border: 3px solid white;
@@ -66,7 +67,7 @@ h5 {
 }
 
 #navbar a:hover {
-    background-color:lightblue;
+    background-color:#d3212c;
 }
 
 h1 {
