@@ -5,24 +5,50 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background-color: black;
-    background-image: url(../images/about.jpg);
-    background-size: cover;
 }
 
-.img {
+li {
+    list-style-type: circle;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    border: 3px solid yellow;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    padding: 10px;
+}
+
+img {
     margin: 25px auto;
-    float: left;
+    padding-left: 10%;
     max-width: 888px;
-    border: 3px solid white;
+    border-radius: 10%;
 }
 
-h2 {
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-family: 'Indie Flower', cursive;
     font-size: 40px;
     color: cyan;
-    padding-left: 15%;
+    padding-right: 15%;
 }
+
 
 #footer {
     background-color: #000000;
@@ -52,8 +78,8 @@ h2 {
 p {
     color: white;
     font-size: 25px;
+    padding-right: 15%;
 }
-
 /*
     Navbar 
 */
@@ -69,6 +95,8 @@ p {
     text-decoration: none;
     color: white;
     padding: 24px;
+    padding-right: 8%;
+    font-size: 20px;
 }
 
 #navbar a:hover {
@@ -78,6 +106,7 @@ p {
 h1 {
     margin-right: auto;
     color: white;
+    padding-left: 8%;
 }
 
 @media screen and (max-width: 500px) {

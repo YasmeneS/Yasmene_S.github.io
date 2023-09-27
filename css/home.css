@@ -77,7 +77,7 @@ h1 {
     border-radius: 5px;
     padding: 10px;
     border: 2px solid black;
-    box-shadow: -4px 4px 12px #d3212c;
+    box-shadow: -4px 4px 12px #00ffff;
     background-color:white;
 }
 
@@ -126,6 +126,8 @@ h1 {
     text-decoration: none;
     color: white;
     padding: 24px;
+    padding-right: 8%;
+    font-size: 20px;
 }
 
 #navbar a:hover {
@@ -135,6 +137,7 @@ h1 {
 h1 {
     margin-right: auto;
     color: white;
+    padding-left: 8%;
 }
 
 #footer {
