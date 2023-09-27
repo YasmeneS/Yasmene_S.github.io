@@ -20,7 +20,8 @@ h2 {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-family: 'Indie Flower', cursive;
     font-size: 40px;
-    color: white;
+    color: cyan;
+    padding-left: 15%;
 }
 
 #footer {
