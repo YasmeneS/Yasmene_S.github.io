@@ -67,7 +67,8 @@ h3 {
     text-decoration: none;
     color: white;
     gap: 20px;
-    padding: 24px;
+    padding-left: 34px;
+    font-size: 17px;
 }
 
 #footer a:hover {
