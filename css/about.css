@@ -13,8 +13,7 @@ li {
     font-size: 30px;
     color: white;
     border: 3px solid yellow;
-    font-family: 'Bricolage Grotesque', sans-serif;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Young Serif', serif;
     padding: 10px;
 }
 
@@ -42,17 +41,24 @@ img {
 
 .side-by-side .text-container h3 {
     font-size: 48px;
-    font-family: 'Bricolage Grotesque', sans-serif;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Young Serif', serif;
     font-size: 40px;
     color: cyan;
     padding-right: 15%;
 }
 
+.side-by-side .text-container h4 {
+    color: white;
+}
+
+h3 {
+    padding-left: 50px;;
+}
 
 #footer {
     background-color: #000000;
     color: white;
+    display: flex;
     padding: 24px;
     border: 3px solid white;
 }
@@ -97,6 +103,7 @@ p {
     padding: 24px;
     padding-right: 8%;
     font-size: 20px;
+    font-family: 'Young Serif', serif;
 }
 
 #navbar a:hover {
@@ -109,11 +116,27 @@ h1 {
     padding-left: 8%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 400px) and (max-width: 700px) {
     #navbar {
         display: flex;
         flex-direction: column;
         padding: 10px;
+    }
+
+    #footer-navbar {
+        flex-direction: column;
+    }
+
+    .side-by-side {
+        flex-direction: column;
+    }
+
+    .side-by-side .text-container h3 {
+        font-size: 30px;
+    }
+
+    .side-by-side p {
+        font-size: 20px;
     }
 }
 
@@ -122,5 +145,9 @@ h1 {
         display: flex;
         flex-direction: column;
         padding: 20px;
+    }
+
+    #footer-navbar {
+        flex-direction: column;
     }
 }
